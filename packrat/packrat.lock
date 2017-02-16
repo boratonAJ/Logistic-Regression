@@ -213,6 +213,12 @@ Source: CRAN
 Version: 0.3
 Hash: ecf589b42cd284b03a4beb9665482d3e
 
+Package: latex2exp
+Source: CRAN
+Version: 0.4.0
+Hash: ba3213bf775f6d3dbe18ee7d1ff7b047
+Requires: magrittr, stringr
+
 Package: lattice
 Source: CRAN
 Version: 0.20-34
@@ -277,6 +283,12 @@ Package: packrat
 Source: CRAN
 Version: 0.4.8-1
 Hash: 6ad605ba7b4b476d84be6632393f5765
+
+Package: pandocfilters
+Source: CRAN
+Version: 0.1-1
+Hash: d14fb94cabea37bcf1778f5379f12ce2
+Requires: jsonlite
 
 Package: pbkrtest
 Source: CRAN

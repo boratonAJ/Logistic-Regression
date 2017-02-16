@@ -2,7 +2,9 @@
 title: "Data collection"
 author: "Ajayi Olabode"
 date: "15 February 2017"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r getdatasetup, include=FALSE}

@@ -2,10 +2,10 @@
 MODELNAME="$(sed -n "s/Package: *\([^ ]*\)/\1/p" DESCRIPTION)"
 MODELVERS="$(sed -n "s/Version: *\([^ ]*\)/\1/p" DESCRIPTION)"
 MODELSRC="$(basename `pwd`)"
-AUTHORNAME="Steph"
-AUTHOREMAIL="Steph@itsalocke.com"
+AUTHORNAME="Ajayi"
+AUTHOREMAIL="boraton2010@gmail.com"
 RENDERDIR="../new_version"
-GITURL="https://$GITHUB_PAT@github.com/$TRAVIS_REPO_SLUG.git"
+GITURL="https://github.com/boratonAJ/Logistic-Regression.git"
 
 git remote set-url origin $GITURL
 git checkout master
