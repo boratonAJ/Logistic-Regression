@@ -246,3 +246,8 @@ Package: withr
 Source: CRAN
 Version: 1.0.2
 Hash: 774eb7be9087cdc24b53b74e5359cfac
+
+Package: yaml
+Source: CRAN
+Version: 2.1.14
+Hash: c81230c3a7d9ba20607ad6b4331173d1
