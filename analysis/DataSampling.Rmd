@@ -1,8 +1,10 @@
 ---
-title: "Data Sampling"
-author: "boratonaj"
+title: "Data sampling"
+author: "Ajayi Olabode"
 date: "15 February 2017"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
 ---
 
 We want to split our data into a training and a test sample for predicting survival of the Titanic. There are two sampling strategies we'll consider here. 
@@ -113,6 +115,5 @@ if(!file.exists(cache_file)){
 load(cache_file)
 if(!identical(rows_train_c, sample_cache)) stop("Hey, the sample has changed, you should check that out!")
 ```
-
 
 
